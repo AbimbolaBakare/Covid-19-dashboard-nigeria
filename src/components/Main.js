@@ -9,6 +9,7 @@ import { StateCasesTable } from './StateCasesTable';
 import { CasesProgressBar } from './CasesProgressBar';
 import { Header } from './Header';
 import { DailyCasesWithFilter } from './DailyCasesWithFilter';
+import { Footer } from './Footer';
 
 const Main = (props) => {
     // All the endpoints are being called at the load of the page
@@ -118,6 +119,7 @@ const Main = (props) => {
                     <Col lg='2'></Col>
                 </Row>
             </Container>
+            <Footer/>
         </>
     )
 };
